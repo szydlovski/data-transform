@@ -1,0 +1,20 @@
+{
+  "name": "@szydlovski/data-transform",
+  "version": "0.1.0",
+  "description": "transform data from objects in an organized manner",
+  "main": "src/data-transform.js",
+  "scripts": {
+    "test": "nyc mocha test/index.test.js"
+  },
+  "author": "Kamil Szydlowski",
+  "license": "MIT",
+  "repository": "https://github.com/szydlovski/data-transform",
+  "dependencies": {
+    "@szydlovski/deep-property": "^0.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "nyc": "^15.1.0"
+  }
+}

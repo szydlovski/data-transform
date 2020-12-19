@@ -1,0 +1,5 @@
+node_modules
+.nyc_output
+dev.js
+notes.txt
+README.html
